@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: loginJWT
+
+jwt:
+  issuer: loginJWT
+  secret-key: dsafoiscxvj8u98vsudv79hsdjfsfx98zcuv8sudvhxuyczvhzd87cvhx789cvhzx98c7vhzx897cvhzx89cuvhzx8c9vuhzxc8v
+  access-token-validity-in-minutes: 1
+  refresh-token-validity-in-minutes: 30
